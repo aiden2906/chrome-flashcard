@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <head>
 	<meta charset="utf-8">
-	<title>JavaScript Tips Tab</title>
+	<title>Học từ vựng với Mr. Quang</title>
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:400" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -9,17 +10,24 @@
 <body>
 	<section class="tip">
 		<div class="tip-number">
-			JavaScript Tip
+			Flashcard
 		</div>
-
-		<div class="js-tip"> </div>
-
+		<div style="display: flex;">
+			<div style="width: 300px;">
+				<div class="word"></div>
+			</div>
+			<div>
+				<div class="mean"></div>
+				<div class="example"></div>
+			</div>
+		</div>
 		<button class="tip-button">
-			Tips Left: <span class="tip-limit-count"> </span>
+			Word Left: <span class="tip-limit-count"> </span>
 		</button>
-
 	</section>
 
+	<script src="js/word-list.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>
